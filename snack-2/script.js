@@ -7,8 +7,8 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
-const getNames = people.map((x) => {
-  return x.name
+const getNames = people.map((person) => {
+  return person.name
 })
 
 console.log(getNames)
