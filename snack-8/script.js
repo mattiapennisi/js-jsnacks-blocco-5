@@ -28,6 +28,4 @@ const getStudentByName = students.find(student => {
   }
 })
 
-const getStudentClass = getStudentByName.class
-
-console.log(getStudentClass);
+console.log(getStudentByName.class);
